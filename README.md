@@ -54,7 +54,7 @@ There should be google cloud SDK shell in the local machine in order to deploy t
 To install the google cloud CLI, follow the tutorial from the following link:https://cloud.google.com/sdk/docs/install
 
 - STEP 3:
- Open the google cloud shell in hte folder and type the following commands:
+ Open the google cloud shell in the folder and type the following commands:
 ```
 gcloud config set project YOUR_PROJECT_ID(Get from gcp)
 gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/app:0.1
